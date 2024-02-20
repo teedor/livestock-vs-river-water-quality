@@ -1,0 +1,97 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+# pkgdown site
+docs/
+
+# translation temp files
+po/*~
+
+# RStudio Connect folder
+rsconnect/
+
+# data to exclude from repo
+datasets-for-ml/ALK_MGL_data.csv
+datasets-for-ml/BOD_MGL_data.csv
+datasets-for-ml/COND_USCM_data.csv
+datasets-for-ml/CUSOL1_MGL_data.csv
+datasets-for-ml/DO_MGL_data.csv
+datasets-for-ml/FESOL1_UGL_data.csv
+datasets-for-ml/final_year_data.csv
+datasets-for-ml/NH4_N_MGL_data.csv
+datasets-for-ml/NO2_N_MGL_data.csv
+datasets-for-ml/NO3_N_MGL_data.csv
+datasets-for-ml/P_SOL_MGL_data.csv
+datasets-for-ml/PH_data.csv
+datasets-for-ml/SS_MGL_data.csv
+datasets-for-ml/ZN_SOL_UGL_data.csv
+working-csv-data/01-livestock-data.csv
+working-csv-data/02-river-data-removed-unnecessary-columns.csv
+working-csv-data/03-river-data-with-lat-lng.csv
+working-csv-data/04-river-data-with-ward.csv
+working-csv-data/05-river-data-merged-copper-columns.csv
+working-csv-data/06-wards-area.csv
+working-csv-data/07-river-data-with-livestock.csv
+working-csv-data/08-cleaned-river-data-with-livestock.csv
+working-csv-data/09-filtered-wards-area.csv
+working-csv-data/10-river-data-with-livestock-and-area.csv
+working-csv-data/11-river-data-with-livestock-densities.csv
+working-csv-data/12-river-water-samples-with-livestock-data_final.csv
+visualisations/outliers/ward_cattle_boxplots.png
+working-csv-data/outliers/01-cattle-outliers.csv
+visualisations/outliers/ward_sheep_boxplots.png
+working-csv-data/outliers/01-sheep-outliers.csv
+visualisations/outliers/ward_pigs_boxplots.png
+visualisations/outliers/ward_poultry_boxplots.png
+working-csv-data/outliers/01-pigs-outliers.csv
+working-csv-data/outliers/01-poultry-outliers.csv
+working-csv-data/13-distinct_basin_ward_area.csv
+working-csv-data/14-primary_basin_total_area.csv
+working-csv-data/15-livestock-data-with-basin-area.csv
+working-csv-data/13-distinct_basin_area.csv
+working-csv-data/16-distinct_basin_livestock_year.csv
+working-csv-data/16-livestock-with-basin.csv
+working-csv-data/17-primary_basin_year_livestock.csv
+working-csv-data/18-river-livestock-with-basin-counts.csv
+working-csv-data/19-river-livestock-density.csv
+visualisations/correlation/pearson-correlation-coefficient-heatmap.png
+working-csv-data/correlation/correlation_matrix.csv
+visualisations/correlation/animal-v-chemicals-bannside-ward.png
